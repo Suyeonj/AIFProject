@@ -17,11 +17,7 @@ KGCN is **K**nowledge **G**raph **C**onvolutional **N**etworks for recommender s
   - `movie/`
     - `item_index2entity_id.txt`: the mapping from item indices in the raw rating file to entity IDs in the KG;
     - `kg.txt`: knowledge graph file;
-  - `music/`
-    - `item_index2entity_id.txt`: the mapping from item indices in the raw rating file to entity IDs in the KG;
-    - `kg.txt`: knowledge graph file;
-    - `user_artists.dat`: raw rating file of Last.FM;
-- `src/`: implementations of KGCN.
+- implementations of KGCN.
 
 
 ### Running the code  
