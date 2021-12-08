@@ -24,8 +24,7 @@ KGCN is **K**nowledge **G**raph **C**onvolutional **N**etworks for recommender s
 - `src/`: implementations of KGCN.
 
 
-### Running the code
-- Movie  
+### Running the code  
   (The raw rating file of MovieLens-20M is too large to be contained in this repository.
   Download the dataset first.)
   ```
@@ -35,17 +34,3 @@ KGCN is **K**nowledge **G**raph **C**onvolutional **N**etworks for recommender s
   $ cd src
   $ python preprocess.py -d movie
   ```
-- Music
-  - ```
-    $ cd src
-    $ python preprocess.py -d music
-    ```
-  - open `src/main.py` file;
-    
-  - comment the code blocks of parameter settings for MovieLens-20M;
-    
-  - uncomment the code blocks of parameter settings for Last.FM;
-    
-  - ```
-    $ python main.py
-    ```
