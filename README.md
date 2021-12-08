@@ -29,4 +29,5 @@ KGCN is **K**nowledge **G**raph **C**onvolutional **N**etworks for recommender s
   $ mv ml-20m/ratings.csv data/movie/
   $ cd src
   $ python preprocess.py -d movie
+  $ python main.py
   ```
